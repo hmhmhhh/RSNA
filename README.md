@@ -40,7 +40,10 @@ Breast Imaging Reporting and Data System(以下BI-RADS)はマンモグラフィ�
 - 5 - 悪性腫瘍の可能性が高い
 - 6 - 生検で悪性が確認されたもの
 
-データセットには0,1,2のみ存在する。
+データセットには0,1,2のみ存在する。0は悪性より、1,2は良性寄りである。(1,2の差は各医師による部分があるらしい)
+
+
+・[このdiscussion](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/369282)をみると、データの容量を小さくした画像が手に入るようだ。
 
 
 
