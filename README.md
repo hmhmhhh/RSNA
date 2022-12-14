@@ -1,5 +1,22 @@
-kaggle 日記
+#  RSNAコンペ  
+__目標: がんの判定  
+評価関数:probablistic F1 __  
+### ファイル構成:  
+####[train/test]_images/[patient_id]/[image_id].dcm  
+画像データファイル
 
+####　[train/test].csv  
+各患者と画像に関するデータ。　　
+|項目|内容|
+------|------
+|site_id| ソース元のID  
+|patient_id| 患者のID  
+|image_id| 画像のID  
+|laterality| 右胸か左胸か
+|view|画像の向き(?). 各胸に対して２度撮影する。
+|age|年齢
+|implant| 豊胸手術をしているか、
+|
 
 #  20221211
 [RSNA Screening Mammography Breast Cancer Detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)に参加開始  
