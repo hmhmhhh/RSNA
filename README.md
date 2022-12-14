@@ -1,6 +1,6 @@
 #  RSNAコンペ  
-__目標: がんの判定  
-評価関数:probablistic F1 __  
+__目標: がんの判定__    
+__評価関数:probablistic F1 __  
 ### ファイル構成:  
 ####  [train/test]_images/[patient_id]/[image_id].dcm  
 画像データファイル
