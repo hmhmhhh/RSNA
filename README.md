@@ -2,10 +2,10 @@
 __目標: がんの判定  
 評価関数:probablistic F1 __  
 ### ファイル構成:  
-####[train/test]_images/[patient_id]/[image_id].dcm  
+####  [train/test]_images/[patient_id]/[image_id].dcm  
 画像データファイル
 
-####　[train/test].csv  
+#### [train/test].csv  
 各患者と画像に関するデータ。　　
 |項目|内容|
 ------|------
@@ -20,7 +20,7 @@ __目標: がんの判定
 |machine_id|撮影機のID|
 |cancer|陽性かどうか.(__テストデータには存在しない項目__)|
 |biopsy|生検(胸の組織の採取)しているかどうか(__テストデータには存在しない項目__)|
-|invasive|陽性の場合に、それが(浸潤がん)[https://oshiete-gan.jp/breast/about/basics/inasive.html]かどうか。(__テストデータには存在しない項目__)|
+|invasive|陽性の場合に、それが[浸潤がん](https://oshiete-gan.jp/breast/about/basics/inasive.html)かどうか。(__テストデータには存在しない項目__)|
 |BIRADS|0:要追加検査,1:陰性,2:通常.(__テストデータには存在しない項目__)|
 |prediction_id|matching submissionのためのID.混合ｓた画像は同じID.___テストのみ存在__|
 |difficult_negative_case |難しいケースかどうか(__テストデータには存在しない項目__)|
