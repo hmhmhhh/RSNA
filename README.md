@@ -46,7 +46,12 @@ Breast Imaging Reporting and Data System(以下BI-RADS)はマンモグラフィ�
 ・[このdiscussion](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/369282)をみると、データの容量を小さくした画像が手に入るようだ。
 
 
-[RSNA002.ipynb](https://www.kaggle.com/code/radek1/fast-ai-starter-pack-train-inference/notebook) を確認
+[RSNA002.ipynb](https://www.kaggle.com/code/radek1/fast-ai-starter-pack-train-inference/notebook) を確認.fastaiをインストール。そのまま投稿で0.42で銅メダル。
+本コンペはデータセットのダウンロードが非常に時間がかかる。。
+
+#20221214  
+
+
 
 
 
