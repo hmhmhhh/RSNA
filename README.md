@@ -73,7 +73,7 @@ Breast Imaging Reporting and Data System(以下BI-RADS)はマンモグラフィ�
 [RSNA002.ipynb](https://www.kaggle.com/code/radek1/fast-ai-starter-pack-train-inference/notebook) を確認.fastaiをインストール。そのまま投稿で0.42で銅メダル。
 本コンペはデータセットのダウンロードが非常に時間がかかる。。
 
-#　20221214  
+#  20221214  
 RSNA002の内容をローカルで追う予定だったが、画像のダウンロードがなかなか終わらず。。
 [このdiscussion](https://www.kaggle.com/code/tomooinubushi/some-lb-probing-results-to-share/comments)を読んでみる。内容の確認コードはRSNA003。
 ## RSNA003について　
