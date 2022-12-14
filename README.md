@@ -15,8 +15,15 @@ __目標: がんの判定
 |laterality| 右胸か左胸か
 |view|画像の向き(?). 各胸に対して２度撮影する。
 |age|年齢
-|implant| 豊胸手術をしているか、
-|
+|implant| 豊胸手術をしているか.1サイト(病院)のみが、豊胸に関する情報を提供している(どちらの胸にしているかは不明)。
+|density| 胸の密度。A(低密度)　<<D　(高密度)。　高密度の場合測定が難しい。(__テストデータには存在しない項目__)
+|machine_id|撮影機のID|
+|cancer|陽性かどうか.(__テストデータには存在しない項目__)|
+|biopsy|生検(胸の組織の採取)しているかどうか(__テストデータには存在しない項目__)|
+|invasive|陽性の場合に、それが(浸潤がん)[https://oshiete-gan.jp/breast/about/basics/inasive.html]かどうか。(__テストデータには存在しない項目__)|
+|BIRADS|0:要追加検査,1:陰性,2:通常.(__テストデータには存在しない項目__)|
+|prediction_id|matching submissionのためのID.混合ｓた画像は同じID.___テストのみ存在__|
+|difficult_negative_case |難しいケースかどうか(__テストデータには存在しない項目__)|
 
 #  20221211
 [RSNA Screening Mammography Breast Cancer Detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)に参加開始  
