@@ -95,7 +95,14 @@ RSNA002の内容をローカルで追う予定だったが、画像のダウン�
 ・豊胸している患者は1～2%(train setでは1.4%)である。  
 陽性率は0.0204-0.0256(trainデータセットでは0.0206)である。  
 
+# 20221215 　
+本日は別の勉強に充てる
 
+# 20221216 　
+訓練データで欠損があるのは__age, BIRADS, density__.
+
+
+<img width="586" alt="image" src="https://user-images.githubusercontent.com/120243667/208106900-4811dbc2-fcf5-4f06-8521-0f579f4227f0.png">
 
 
 
