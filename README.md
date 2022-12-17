@@ -1,6 +1,6 @@
 #  RSNAコンペ  
 __目標: がんの判定__    
-__評価関数:probablistic F1 __  
+__評価関数:probablistic F1__  
 ### ファイル構成:  
 ####  [train/test]_images/[patient_id]/[image_id].dcm  
 画像データファイル
@@ -120,4 +120,6 @@ conda install -c conda-forge timm
 ~~~
 
 Pytorchの構文がわからないためその勉強を開始。
+また(ここ)[https://scmopt.github.io/analytics/14fastai.html]にfastaiの説明がまとまっている。
+
 
