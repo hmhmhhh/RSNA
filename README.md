@@ -119,3 +119,5 @@ https://dajiro.com/entry/2020/07/24/161040)を使用して解析している。T
 conda install -c conda-forge timm
 ~~~
 
+Pytorchの構文がわからないためその勉強を開始。
+
