@@ -104,7 +104,10 @@ RSNA002の内容をローカルで追う予定だったが、画像のダウン�
 
 <img width="586" alt="image" src="https://user-images.githubusercontent.com/120243667/208106900-4811dbc2-fcf5-4f06-8521-0f579f4227f0.png">
 
-
+やっとまともに画像がdownloadできたので、RSNA002の内容確認。
+途中に今回の評価関数に関する[記事](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/369886)があった。
+posケースとnegケースについて、モデル予測値の分布をプロットすると、否定ケースの分布は指数関数的でp=0に非常に鋭いピークがある。分布は非常にアンバランスであり、99%が陰性である。
+したがって、predict[predict<0.1]=0に設定するなど、厳しい閾値を設定すれば、より良いlbスコアを得ることができます。(らしい)
 
 
 
