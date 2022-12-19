@@ -122,4 +122,17 @@ conda install -c conda-forge timm
 Pytorchの構文がわからないためその勉強を開始。
 また(ここ)[https://scmopt.github.io/analytics/14fastai.html]にfastaiの説明がまとまっている。
 
+# 20221219
+RSNA002の解読つづき。
+pfbeta_torch,pfbeta_torch_thresh は評価関数の定義。
+~~~
+learn = get_learner('tf_efficientnetv2_s')
+~~~
+モデルのきもはこの部分だとおもわれる。このモデルはEfficientNetV2と呼ばれるモデルをtimmで利用している。
+
+あまり自分で手を加える箇所がない？？？
+
+
+
+
 
