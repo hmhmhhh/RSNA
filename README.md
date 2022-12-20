@@ -29,6 +29,8 @@ __評価関数:probablistic F1__
 [RSNA Screening Mammography Breast Cancer Detection](https://www.kaggle.com/competitions/rsna-breast-cancer-detection)に参加開始  
 [このCODE](https://www.kaggle.com/code/radek1/eda-training-a-fast-ai-model-submission)を参考に解析を開始(RSNA001.ipynb).  
 
+
+
 内容説明　　
 このコンペは左右の乳房の乳がんの有無を判定するものである。
 各idに対して、左右の乳がんの確率？を求めて提出する。患者数は11913人。
@@ -132,7 +134,15 @@ learn = get_learner('tf_efficientnetv2_s')
 
 あまり自分で手を加える箇所がない？？？
 
-
-
-
+# 20221220 
+自分で手を進められる箇所がないので、泣く泣くこちらの(discussion)[https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/372567]を確認する。
+OpenCVを用いた画像処理に関する様々な小技を紹介している。
+openCVは
+~~~import　cv2~~~ で利用する。
+・Color Skew(色の歪み？？を軽減する方法。HSVは(このページ参照)[https://ja.wikipedia.org/wiki/HSV%E8%89%B2%E7%A9%BA%E9%96%93])  
+・RGB Norm:RGBの値を規格化する。
+・Black and White:白黒写真に変換
+・Ben Graham: Greyscale + Gaussian Blur:画像をぼかす方法。
+・Hue, Saturation, Brightness　上のHSV参照。
+・LUV Color Space:
 
