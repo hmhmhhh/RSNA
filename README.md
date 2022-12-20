@@ -146,3 +146,6 @@ openCVは
 ・Hue, Saturation, Brightness　上のHSV参照。
 ・LUV Color Space:
 
+[RSNA002の補足](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/371805)   
+本問題の難しいポイントはPosとNegのアンバランス差である。
+
