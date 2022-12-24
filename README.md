@@ -149,3 +149,6 @@ openCVは
 [RSNA002の補足](https://www.kaggle.com/competitions/rsna-breast-cancer-detection/discussion/371805)   
 本問題の難しいポイントはPosとNegのアンバランス差である。
 
+
+# 20221224  　
+最近少しモチベーションが下がっている。画像処理難しい。。
